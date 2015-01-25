@@ -34,7 +34,7 @@ if __name__ == "__main__":
         try:
             decnumber = int(input("input the decnumber"))
         except ValueError:
-            print("Plese input number, not literal")
+            print("you have wrong input!")
         else:
             yesno = Transfome(decnumber)
             if(yesno=='no'):
